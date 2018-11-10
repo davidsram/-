@@ -4,7 +4,7 @@ def fib(max):
     while n < max:
         print (b)
         c.append(b)
-        a, b = b, a + b
+        (a, b) = (b, a + b)
         n = n + 1
 
     print(c)
